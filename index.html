@@ -10,20 +10,55 @@
 </head>
 <body>
     <h1>Sign-Up Form</h1>
-    <form>
-        <legend>Join the battle and bring your side victory!</legend>
-      
-        <label for="name">Username*</label>
-        <input type="text" id="username" name="username">
 
-        <label for="email">Email*</label>
-        <input type="email" id="email" name="email">
-      
-        <!-- password -->
+    <!-- <img src="images/ff14ew-patch-6-1-newfound-adventures.jpeg" alt="art of FFXIV"> -->
+      <!-- Photo credit: Yusuke Mogi -->
 
-        <!-- confirm password -->
+    <form action="#">
+        <legend>Adventure awaits you beyond the horizon</legend>
 
-        <button type="submit">Create Account</button>
+        <div class="info">
+            <label for="name">Username*</label>
+            <input 
+            type="text"
+            id="username" 
+            name="username" 
+            minlength="3" 
+            maxlength="15" 
+            required>
+        </div>
+
+        <div class="info">
+            <label for="email">Email*</label>
+            <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            required>
+        </div>
+        
+        <div class="info">
+            <label for="password">Password*</label>
+            <input 
+            type="password" 
+            name="password" 
+            id="password" 
+            required>
+        </div>
+
+        <div class="info">
+            <label for="confirm-password">Confirm password*</label>
+            <input 
+            type="password" 
+            name="confirm-password" 
+            id="confirm-password" 
+            required>
+        </div>
+
+        <div class="info-button">
+            <button type="submit">Create Account</button>
+        </div>
+        
     </form>
       
 </body>
