@@ -1,7 +1,12 @@
+body {
+    display: flex;
+}
+
 html {
     background-image: url('images/ff14ew-patch-6-1-newfound-adventures.jpeg');
     background-repeat: no-repeat;
-
+    display: flex;
+    height: 100%;
 }
 
 .content {
@@ -12,6 +17,26 @@ html {
 .form-container {
     display: flex;
     flex-direction: column;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+img {
+    height: 50%;
+    width: auto;
 }
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
