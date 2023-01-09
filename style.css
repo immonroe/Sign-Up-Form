@@ -1,6 +1,7 @@
-.container {
+.content {
     display: flex;
 }
+
 
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
