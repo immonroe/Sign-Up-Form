@@ -6,8 +6,12 @@ html {
 
 .content {
     display: flex;
+    flex-direction: row;
 }
 
-
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
