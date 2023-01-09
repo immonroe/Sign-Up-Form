@@ -1,5 +1,7 @@
 html {
     background-image: url('images/ff14ew-patch-6-1-newfound-adventures.jpeg');
+    background-repeat: no-repeat;
+
 }
 
 .content {
