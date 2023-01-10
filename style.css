@@ -5,7 +5,7 @@ body {
 html {
     background-image: url('images/ff14ew-patch-6-1-newfound-adventures.jpeg');
     background-repeat: no-repeat;
-    background-position: -10% 60%;
+    background-position: -15% 60%;
     background-size: 50%;
     display: flex;
     height: 100vh;
@@ -56,7 +56,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 40%;
-    padding-top: 100px;
+    padding-top: 13rem;
 }
 
 img {
@@ -131,5 +131,6 @@ button:active {
 a {
     color: rgb(135, 206, 235);
 }
-/* get vertical banner to scale properly with responsiveness of page */
+
+/* get vertical banner to scale properly with responsiveness of page - 1216px media query */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
