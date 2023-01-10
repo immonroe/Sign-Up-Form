@@ -137,8 +137,6 @@ a {
     #register {
       flex-direction: column;
     }
-
-    @media only screen and (max-width: 900px) {
         .content, 
         #register {
           flex-direction: column;
@@ -163,6 +161,5 @@ a {
         width: 100vw;
         height: auto;
     }
-  }
 }
   /* break at 900px */
