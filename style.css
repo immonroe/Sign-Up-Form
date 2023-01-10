@@ -1,3 +1,7 @@
+* {
+    font-family: 'Noto Serif', serif;
+}
+
 body {
     display: flex;
 }
@@ -12,7 +16,6 @@ html {
 .content {
     display: flex;
     flex-direction: row;
-
 }
 
 .form-container {
