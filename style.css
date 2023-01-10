@@ -2,8 +2,8 @@ body {
     display: flex;
     background-image: url(images/ff14ew-patch-6-1-newfound-adventures.jpeg);
     background-repeat: no-repeat;
-    background-position: -15% 50%;
-    background-size: 55%;
+    background-position: -60% 50%;
+    background-size: 70%;
 }
 
 html {
@@ -45,7 +45,6 @@ html {
 .container-right {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     justify-content: space-around;
     background-color: rgb(238, 238, 238);
     padding: 5rem 0;
@@ -60,8 +59,8 @@ html {
 }
 
 img {
-    height: 50%;
-    width: auto;
+    /* height: 200px;
+    width: auto; */
     padding-top: 100px;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -132,20 +131,24 @@ a {
     color: rgb(135, 206, 235);
 }
 
-@media only screen and (max-width: 1200px) {
-    /* .content,  */
+@media only screen and (max-width: 1000px) {
     #register {
       flex-direction: column;
     }
-        .content, 
-        #register {
-          flex-direction: column;
-        }
+
+    .content, 
+    #register {
+        flex-direction: column;
+    }
 
     .container-right, .submit-section, .text-container {
         justify-content: center;
         text-align: center;
         align-items: center;
+    }
+
+    .container-right {
+        padding-top: 0;
     }
 
     .info {
@@ -162,4 +165,3 @@ a {
         height: auto;
     }
 }
-  /* break at 900px */
