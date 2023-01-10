@@ -34,7 +34,7 @@ html {
     gap: 2rem;
     justify-content: space-around;
     background-color: rgb(238, 238, 238);
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
 .container-left {
@@ -60,12 +60,54 @@ img {
     padding-top: 1rem;
 }
 
-.submit-section {
-    margin-bottom: 9rem;
-}
-
 .text-container, .form-container, .submit-section {
     padding: 20px;
+}
+
+button {
+    background-color: rgb(135, 206, 235);
+      align-items: center;
+      background-clip: padding-box;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 1.25;
+      margin: 0;
+      min-height: 3rem;
+      padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+      text-decoration: none;
+      transition: all 250ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      width: auto;
+}
+    
+button:hover,
+button:focus {
+  background-color: rgb(135, 206, 235);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;}
+    
+button:hover {
+    transform: translateY(-1px);
+}
+    
+button:active {
+    background-color: rgb(66, 176, 219);
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+a {
+    color: rgb(135, 206, 235);
 }
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
