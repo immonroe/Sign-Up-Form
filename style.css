@@ -19,12 +19,20 @@ html {
     flex-direction: column;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem 0 0;
+    gap: 10px;
+}
+
 .container-right {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: space-around;
     background-color: white;
+    padding: 20px;
 }
 
 .container-left {
@@ -32,11 +40,17 @@ html {
     justify-content: center;
     align-items: center;
     height: 40%;
+    padding-top: 100px;
 }
 
 img {
     height: 50%;
     width: auto;
+}
+
+#register {
+    display: flex;
+    flex-direction: row;
 }
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
