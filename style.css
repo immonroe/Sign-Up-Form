@@ -18,6 +18,8 @@ html {
 .form-container {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    box-shadow: 0rem .25rem .5rem rgb(0 0 0 / 15%);
 }
 
 .info {
@@ -32,8 +34,8 @@ html {
     flex-direction: column;
     gap: 2rem;
     justify-content: space-around;
-    background-color: white;
-    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    padding-top: 5rem;
 }
 
 .container-left {
@@ -59,6 +61,12 @@ img {
     padding-top: 1rem;
 }
 
+.submit-section {
+    margin-bottom: 9rem;
+}
 
+.text-container, .form-container, .submit-section {
+    padding: 20px;
+}
 /* get vertical banner to scale properly with responsiveness of page */
 /* Once page sizes gets to a certain width, banner turns to background image of webpage */
