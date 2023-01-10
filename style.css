@@ -132,7 +132,7 @@ a {
     color: rgb(135, 206, 235);
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1200px) {
     /* .content,  */
     #register {
       flex-direction: column;
