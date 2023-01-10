@@ -133,9 +133,16 @@ a {
 }
 
 @media only screen and (max-width: 1070px) {
-    .content, #register {
+    /* .content,  */
+    #register {
       flex-direction: column;
     }
+
+    @media only screen and (max-width: 900px) {
+        .content, 
+        #register {
+          flex-direction: column;
+        }
 
     .container-right, .submit-section, .text-container {
         justify-content: center;
@@ -157,5 +164,5 @@ a {
         height: auto;
     }
   }
-/* get vertical banner to scale properly with responsiveness of page - 1070px media query to make container flex-direction a column */
-/* Once page sizes gets to a certain width, banner turns to background image of webpage */
+}
+  /* break at 900px */
