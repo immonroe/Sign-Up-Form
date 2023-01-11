@@ -64,6 +64,7 @@ img {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* Add more spacing around inputs and work on styling */
 #register {
     display: flex;
     flex-direction: row;
