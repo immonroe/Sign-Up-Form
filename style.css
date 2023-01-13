@@ -131,6 +131,8 @@ a {
     color: rgb(135, 206, 235);
 }
 
+/* responsive design */
+
 @media only screen and (max-width: 1000px) {
     #register {
       flex-direction: column;
@@ -165,3 +167,27 @@ a {
         height: auto;
     }
 }
+
+/* input styling */
+
+input {
+    border: 1px solid #E5E7EB;
+}
+
+input:invalid {
+    /* border: 2px solid red; */
+  }
+
+input:focus {
+    outline: none !important;
+    border:1px solid lightblue;
+    box-shadow: 0 0 4px #719ECE;
+  }
+  
+  input:invalid:required {
+    /* background-image: linear-gradient(to right, pink, lightgreen); */
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
