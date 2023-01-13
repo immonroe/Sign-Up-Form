@@ -185,9 +185,10 @@ input:focus {
   }
   
   input:invalid:required {
-    /* background-image: linear-gradient(to right, pink, lightgreen); */
+    background-color: rgb(255, 175, 175);
+    border: 1px solid red;
   }
   
   input:valid {
-    border: 2px solid black;
+    border: 2px solid lightgreen;
   }
