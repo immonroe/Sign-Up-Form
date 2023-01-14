@@ -180,11 +180,6 @@ input:focus {
     box-shadow: 0 0 4px #719ECE;
   }
   
-  input:invalid:required {
-    /* background-color: rgb(255, 175, 175);
-    border: 1px solid red; */
-  }
-  
   input:valid {
     border: 2px solid lightgreen;
   }
