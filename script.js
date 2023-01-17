@@ -1,9 +1,3 @@
-// The inputs, by default have a very light border (#E5E7EB), but we’ve included 2 variations. For starters, the password inputs should be given an error class.
-
-// The other variation is the selected input, which should have a blue border and subtle box-shadow. This can be done with the :focus pseudo-class you’ve learned about in an earlier lesson.
-
-// Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
-
 const register = document.querySelector("#register");
 const username = document.querySelector("#username");
 const email = document.querySelector("#email");
@@ -24,6 +18,8 @@ function submitForm(e) {
     email.style.border = "2px solid red";
   }
 }
+
+// Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
 
 // function verifyPassword() {
 //     let pw = document.getElementById("pswd").value;
@@ -47,3 +43,15 @@ function submitForm(e) {
 //        alert("Password is correct");
 //     }
 //   }
+
+// Validate password function
+
+// function Validate() {
+//     var password = document.getElementById("txtPassword").value;
+//     var confirmPassword = document.getElementById("txtConfirmPassword").value;
+//     if (password != confirmPassword) {
+//         alert("Passwords do not match.");
+//         return false;
+//     }
+//     return true;
+// }
