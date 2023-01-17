@@ -46,9 +46,9 @@ function submitForm(e) {
 
 // Validate password function
 
-// function Validate() {
-//     var password = document.getElementById("txtPassword").value;
-//     var confirmPassword = document.getElementById("txtConfirmPassword").value;
+// function validate() {
+//     var password = document.getElementById("password").value;
+//     var confirmPassword = document.getElementById("ConfirmPassword").value;
 //     if (password != confirmPassword) {
 //         alert("Passwords do not match.");
 //         return false;
