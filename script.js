@@ -1,3 +1,5 @@
+// Selected box highlight/error script
+
 const register = document.querySelector("#register");
 const username = document.querySelector("#username");
 const email = document.querySelector("#email");
