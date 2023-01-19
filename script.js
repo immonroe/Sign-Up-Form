@@ -1,0 +1,1 @@
+// Add script that makes sure both passwords match one another
