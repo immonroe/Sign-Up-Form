@@ -2,7 +2,6 @@ body {
     display: flex;
     background-image: url(images/ff14ew-patch-6-1-newfound-adventures.jpeg);
     background-repeat: no-repeat;
-    /* background-position: -60% 50%; */
     background-size: contain;
 }
 
@@ -47,7 +46,6 @@ html {
     flex-direction: column;
     justify-content: space-around;
     background-color: rgb(238, 238, 238);
-    /* padding: 5rem 0; */
 }
 
 .container-left {
@@ -86,6 +84,7 @@ img {
     padding: 25px;
 }
 
+/* button styling */
 button {
     background-color: rgb(135, 206, 235);
       align-items: center;
@@ -170,7 +169,6 @@ a {
     }
 }
 
-/* input styling */
 
 input {
     border: 1px solid #E5E7EB;
