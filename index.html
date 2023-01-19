@@ -67,6 +67,7 @@
                             id="password" 
                             class="error"
                             placeholder="Password"
+                            onkeyup='check();'
                             required>
                         </div>
 
@@ -78,8 +79,13 @@
                             id="confirm-password" 
                             class="error"
                             placeholder="Confirm Password"
+                            onkeyup='check();'
                             required>
                         </div>
+
+                        <span id='message'></span>
+
+
                     </div>
                 </form>
             </div>
