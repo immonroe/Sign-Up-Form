@@ -10,3 +10,5 @@ var check = function() {
       document.getElementById('message').innerHTML = 'not matching ✖';
     }
   }
+
+  // backend authentication method - https://auth0.com/developers
