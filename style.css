@@ -23,8 +23,8 @@ html {
     font-style: italic;
 }
 
-.text-container p {
-    line-height: 1.25rem;
+.text-container p, .form-container p {
+    line-height: 2rem;
 }
 
 .form-container {
