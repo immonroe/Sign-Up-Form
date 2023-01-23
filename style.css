@@ -23,6 +23,10 @@ html {
     font-style: italic;
 }
 
+.text-container p {
+    line-height: 1.25rem;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
